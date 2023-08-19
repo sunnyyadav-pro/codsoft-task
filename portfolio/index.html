@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Personal portfolio website</title>
+    <link rel="stylesheet" href="./index.css">
+
+    <!-- /* CDN link  for logo  */ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- /* font link  for logo  */ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Satisfy&display=swap" rel="stylesheet">
+
+    <!-- /* font link for hiii, iam sunny yadav */ -->
+
+
+
+    <style>
+        /* font style for logo */
+        @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Satisfy&display=swap');
+
+
+        /* font style for hii, aim sunny  */
+    </style>
+</head>
+
+
+
+<div id="header">
+
+    <div class="navbar-list">
+        <!-- nav logo -->
+        <div class="navbar-logo">
+            <h3> Welcome<span>to my portfolio  <i class="fa-solid fa-globe"></i> </span></h3>
+        </div>
+        <!-- navbar list -->
+        <nav>
+            <ul>
+                <li>
+                    <a href="#header">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#card-group">Services</a>
+                    <!-- <a href="#">Portfolio</a> -->
+                    <a href="#main-footer">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- header text -->
+    <div class="header-text">
+        <h1> Hello, I'am Sunny Yadav from India</h1>
+        <p>frontend developer<i class="fa-solid fa-code"></i></p>
+
+    </div>
+    <div class="header-img"></div>
+</div>
+
+<!-- about section -->
+<div id="about">
+    <div class="container">
+
+        <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p class="para">Hey there, I'm Sunny Yadav, a passionate full-stack developer with an unwavering love
+                for web technology. Currently, I'm immersed in a dynamic internship at CodSoft, a tech company where
+                innovation thrives.
+                My journey began with a fascination for coding, leading me to specialize as a full-stack
+                developer. With an in-depth understanding of both front-end and back-end technologies, I take
+                pride in crafting seamless and engaging digital experiences.
+                As I navigate the ever-evolving landscape of web development, I'm continually refining my skills
+                in [HTML5, CSS, JAVASCRIPT, JAVA languages]. My internship at CodSoft has provided invaluable
+                real-world exposure, allowing me to collaborate on projects that push the boundaries of what's
+                possible in tech.
+                When I'm not busy coding, you might find me exploring the latest advancements in w development,
+                experimenting with new design trends, or delving into the intricate world of user
+                experience. The internet is my canvas, and I'm passionate about creating solutions that leave a
+                lasting impact.
+                Join me on this exciting journey of innovation and growth. Let's connect and explore the endless
+                possibilities of web technology together!
+            </p>
+
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>HTML5</span></li>
+                    <li><span>CSS</span></li>
+                    <li><span>JAVASCRIPT</span></li>
+                    <li><span>NODE JS</span></li>
+                    <li><span>REACT</span></li>
+                    <li><span>MONGODB</span></li>
+                </ul>
+            </div>
+            <!--**************** horzontal line ****************** -->
+
+
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>freelancer</span></li>
+                    <li><span>fresher for company</span></li>
+                    <li><span></span></li>
+                    <li><span></span></li>
+                </ul>
+            </div>
+            <!--**************** horzontal line ****************** -->
+
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>10th Kendriya Vidyalaya Sangathan </span></li>
+                    <li><span>12th Kendriya Vidyalaya Sangathan </span></li>
+                    <li><span> Graduation in Bachelor of Computer Application Maharishi University of Information
+                            Technology</span></li>
+                    <li><span>Post Graduation in Master of Computer Application University of Lucknow</span></li>
+
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<!-- **************** horzontal line ****************** -->
+<!-- <div class="horzontal-line-left"></div>
+<div class="horzontal-line-right"></div>
+ -->
+
+<!-- **************** services section ****************** -->
+
+<h1 class="servieceTitle-Of-my-services">My Services</h1>
+
+<section id="card-group">
+    <article class="service-card">
+        <h2 class="service-card-heading">Website Development</h2>
+        <p class="cutoff-text">This service is tailored according to your business needs. That means, if you want a
+            business for your products or services with unique functionality or design, then you can take these
+            professional web development services. In this case, a company would have a dedicated team of website
+            developers that have expertise with cutting-edge technologies. In short, you can customize your website
+            according to your designs.</p>
+
+    </article>
+
+
+    <article class="service-card">
+        <h2 class="service-card-heading">E-commerce web development</h2>
+        <p class="cutoff-text">To thrive in this modern world of technologies, your business must have an eCommerce web
+            portal that can be developed in the right manner. For this, you require the guidance of developers that have
+            in-depth knowledge of their domain of developing an eCommerce website. Basically, the eCommerce portal
+            depends on two types. The business to business development portal and the other one is the business to
+            customer development portal. These two are totally different from each other. Therefore, the market depends
+            on these two portals based on which one you choose for your business. The e-commerce developers make use of
+            various shopping cart software that would easily carry the objectives of having an eCommerce website.</p>
+
+
+    </article>
+
+
+    <article class="service-card">
+        <h2 class="service-card-heading">Website Maintenance</h2>
+        <p class="cutoff-text"> It will show that your website needs to be maintained in order to get it at the pink of
+            health. Some aspects, like crawling, indexing, and instant technical support, will be provided by companies
+            to their client who opts for this service.</p>
+
+
+    </article>
+
+
+
+</section>
+<!--  Contact -->
+
+<div id="main-footer">
+
+    
+    <div class="footer-row">
+        
+        <!-- footer right left -->
+        <div class="footer-contact-left ">
+            <h1 class="footer-title">Contact Me</h1>
+            <p > <i class="fa-solid fa-paper-plane left "> </i>
+                 Sunnyyadav70710@gmail.com</p>
+            <p><i class="fa-solid fa-phone left"></i>  87987*****</p>
+
+            <div class="footer-icon icon "> 
+                <a href="  https://www.facebook.com/   ">
+                    <i class="fa-brands fa-facebook left"></i></a>
+                <a href="  https://twitter.com/home    ">
+                    <i class="fa-brands fa-twitter left "></i></a>
+                    <i class="fa-brands fa-linkedin left "></i></a>
+                    
+                    <a href=" https://www.linkedin.com/in/sunny-yadav-95b522201/  ">
+            </div>
+            <div class="download-cv">
+                <a href="./img/main resume.pdf" download class="btn-download-cv">Download CV</a>
+            </div>
+
+        </div>
+
+<!-- footer right side -->
+
+        <div class="footer-contact-right ">
+
+            <form name="submit-to-google-sheet">
+                <input type="text" name="name" placeholder="your name" required>
+                <input type="email" name="email" placeholder="@gmail.com " required>
+                <textarea name="message" rows="10" placeholder=" your message"></textarea>
+                <button type="submit">Submit</button>
+
+            </form>
+
+
+        </div>
+
+
+    </div>
+
+    <span id="msg"></span>
+
+    <div class="copyright">
+        <p>Copyright <i class="fa-solid fa-copyright"></i> </p>
+    </div>
+
+</div>
+
+
+
+<script src="./index.js"></script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyIxgINJX-ptz3oSrtZcanW53KMsKSxIGiqQaMfpCZXyAasrXGpLy_wXyWJHuowPnSSdA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => {
+                msg.innerHTML = "Message Send Successfully"
+                setTimeout(function () {
+                    msg.innerHTML = " "
+                }, 1000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+    })
+</script>
+</body>
+
+</html>
